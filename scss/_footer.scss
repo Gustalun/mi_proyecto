@@ -1,0 +1,47 @@
+/* aca va el footer */
+.footer__contenedor {
+    display: flex;
+    margin: 0 auto;
+    padding: 0.15rem;
+    justify-content: space-evenly;
+    background-color: rgb(187, 177, 187);
+}
+
+.footer__contactos {
+    
+    padding: 0.625rem;
+    width: 9.375rem;
+    height: 9.375rem;
+    text-align: center;
+    margin: 1rem;
+}
+.footer__instagram {
+    
+    padding: 0.625rem;
+    width: 9.375rem;
+    height: 9.375rem;
+    text-align: center;
+    margin: 1rem;
+}
+.footer__conoceme {
+    
+    padding: 0.625rem;
+    width: 9.375rem;
+    height: 9.375rem;
+    text-align: center;
+    margin: 1rem;
+}
+.footer__mapa {
+    margin-top: 2rem;
+    height: 15rem;
+    width: 18rem;
+    align-items: stretch;
+}
+
+@media (max-width: 900px) and (min-width: 400px) {
+    .footer__contenedor {
+        display: flex;
+        flex-direction: column;
+        padding: 0.25rem;
+    }
+}

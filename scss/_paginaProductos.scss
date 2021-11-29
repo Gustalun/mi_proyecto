@@ -1,0 +1,36 @@
+/* pagina de productos */
+
+.contenedor {
+    display: grid;
+    background-color: rgb(230, 230, 210);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5rem 100%;
+    grid-template-areas: "secciones secciones secciones"
+    "galeria galeria galeria";
+    height: 170vh;
+    margin-bottom: 3rem;
+}
+.secciones {
+    grid-area: secciones;
+}
+.galeria {
+    grid-area: galeria;
+}
+.categorias {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 100%;
+}
+.galeriaContenido {
+    display: flex;
+    margin: 4rem;
+    justify-content: start;
+    align-items: center;
+    
+}
+.galeriaContenido img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 3rem;
+}

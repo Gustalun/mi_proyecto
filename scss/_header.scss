@@ -1,0 +1,28 @@
+header {
+    background-color: rgb(241, 241, 209);
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+/* barra de navegacion */
+
+.botonera {
+    margin-right: 1.25rem;
+}
+.botonera ul li {
+    display: inline-block;
+    margin-left: 1.25rem;
+}
+.botonera ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tamañoLogo { 
+    width: 8rem; height: 6rem;
+}
