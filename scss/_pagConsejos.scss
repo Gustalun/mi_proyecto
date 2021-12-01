@@ -6,19 +6,11 @@
     grid-template-areas: ". consejo consejo ."
     ". consejo consejo ."
     ". consejo consejo .";
-    height: 100vh;
 }
 .consejo {
     grid-area: consejo;
     text-align: center;
-    padding: 6rem;
+    padding: 0.5rem;
     font-size: 2rem;
     font-weight: bold;
-}
-@media (max-width: 900px) and (min-width: 400px) {
-    .consejo {
-        text-align: start;
-        font-size: 1rem;
-        padding: 2rem;
-    }
 }

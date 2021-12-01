@@ -25,8 +25,8 @@ span {
     display: flex;
     background: rgb(247, 232, 215);
     flex-direction: row;
-    padding: 50px;
-    width: 80%;
+    padding: 3.125rem;
+    
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -37,7 +37,7 @@ span {
     width: 20rem;
     height: 20rem;
     text-align: center;
-    margin: 1.25rem;
+    margin: auto;
     background: url(../multimedia/fotocajas.jpg);
     background-size: cover;
     padding: 1.25rem;
@@ -137,14 +137,6 @@ h2 {
     }
     body {
         overflow-x: hidden;
-        margin: 0;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .posicionTexto {
-        font-size: 1rem;
-        padding: 0;
-        text-align: start;
         margin: 0;
     }
 }

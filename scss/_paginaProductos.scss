@@ -7,11 +7,12 @@
     grid-template-rows: 5rem 100%;
     grid-template-areas: "secciones secciones secciones"
     "galeria galeria galeria";
-    height: 170vh;
     margin-bottom: 3rem;
 }
 .secciones {
     grid-area: secciones;
+    text-align: center;
+    color: rgba(137, 43, 226, 0.986);
 }
 .galeria {
     grid-area: galeria;

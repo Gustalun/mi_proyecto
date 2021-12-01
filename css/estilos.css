@@ -52,8 +52,7 @@ span {
   display: flex;
   background: #f7e8d7;
   flex-direction: row;
-  padding: 50px;
-  width: 80%;
+  padding: 3.125rem;
   margin: 0 auto;
   justify-content: space-between; }
 
@@ -64,7 +63,7 @@ span {
   width: 20rem;
   height: 20rem;
   text-align: center;
-  margin: 1.25rem;
+  margin: auto;
   background: url(../multimedia/fotocajas.jpg);
   background-size: cover;
   padding: 1.25rem; }
@@ -159,13 +158,6 @@ h2 {
     overflow-x: hidden;
     margin: 0; } }
 
-@media only screen and (max-width: 480px) {
-  .posicionTexto {
-    font-size: 1rem;
-    padding: 0;
-    text-align: start;
-    margin: 0; } }
-
 /* aca va el footer */
 .footer__contenedor {
   display: flex;
@@ -212,7 +204,7 @@ h2 {
   display: flex;
   background-color: aliceblue;
   margin: 0 auto;
-  padding: 100px;
+  padding: 6.25rem;
   justify-content: space-between;
   background-image: url(../multimedia/fotocajas.jpg);
   background-repeat: no-repeat;
@@ -221,9 +213,9 @@ h2 {
 .caja3 {
   border: 1px solid violet;
   padding: 0.625rem;
-  width: 11.25rem;
-  height: 11.25rem;
-  line-height: 11.25rem;
+  width: 8.25rem;
+  height: 8.25rem;
+  line-height: 8.25rem;
   text-align: center;
   margin: 0.938rem;
   background-color: beige;
@@ -236,11 +228,12 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 5rem 100%;
   grid-template-areas: "secciones secciones secciones" "galeria galeria galeria";
-  height: 170vh;
   margin-bottom: 3rem; }
 
 .secciones {
-  grid-area: secciones; }
+  grid-area: secciones;
+  text-align: center;
+  color: rgba(137, 43, 226, 0.986); }
 
 .galeria {
   grid-area: galeria; }
@@ -266,58 +259,16 @@ h2 {
 .PagConsejo {
   display: grid;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  grid-template-areas: ". consejo consejo ." ". consejo consejo ." ". consejo consejo .";
-  height: 100vh; }
+  grid-template-areas: ". consejo consejo ." ". consejo consejo ." ". consejo consejo ."; }
 
 .consejo {
   grid-area: consejo;
   text-align: center;
-  padding: 6rem;
+  padding: 0.5rem;
   font-size: 2rem;
   font-weight: bold; }
 
-@media (max-width: 900px) and (min-width: 400px) {
-  .consejo {
-    text-align: start;
-    font-size: 1rem;
-    padding: 2rem; } }
-
 /* pagina de contacto */
-.contactoDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-.wppDiv {
-  border: 1px solid gray;
-  font-size: 1.4rem;
-  background-color: green;
-  padding: 2rem;
-  margin: 2rem 3rem 2rem 3rem; }
-  .wppDiv a {
-    text-decoration: none;
-    color: white; }
-
-.instaDiv {
-  border: 1px solid gray;
-  font-size: 1.4rem;
-  background-color: rebeccapurple;
-  padding: 2rem;
-  margin: 2rem 3rem 2rem 3rem; }
-  .instaDiv a {
-    text-decoration: none;
-    color: white; }
-
-.faceDiv {
-  border: 1px solid gray;
-  font-size: 1.4rem;
-  background-color: blue;
-  padding: 2rem;
-  margin: 2rem 3rem 2rem 3rem; }
-  .faceDiv a {
-    text-decoration: none;
-    color: white; }
-
 .subtitulo {
   color: violet; }
 
@@ -333,3 +284,6 @@ body {
 
 .turnosGradientes {
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
+
+h1 {
+  text-align: center; }
